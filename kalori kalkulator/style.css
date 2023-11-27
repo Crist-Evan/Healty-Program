@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: black;
+}
+
+.box #hitung {
+  height: 3rem;
+  width: 17rem;
+}
+
+.box .radio {
+  height: 1rem;
+  width: 3rem;
+}
+
+.box .number {
+  height: 1rem;
+  width: 17rem;
+}

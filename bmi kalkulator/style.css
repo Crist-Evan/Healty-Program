@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: white;
+  background-color: black;
+}
+
+.template {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.template .templateBox .dataInput input {
+  height: 2rem;
+  width: 16rem;
+}
+
+#submitButton {
+  height: 3rem;
+  width: 18rem;
+}

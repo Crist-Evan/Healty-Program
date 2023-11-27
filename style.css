@@ -1,0 +1,35 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 2rem;
+}
+
+a {
+  border: 1px solid white;
+  border-radius: 5px;
+  margin: 0 1rem;
+  padding: 1rem;
+  text-decoration: none;
+  color: lightblue;
+  transition: background-color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+  background-color: lightblue;
+  color: black;
+}

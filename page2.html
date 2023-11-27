@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Healty Program | Kalori Kalkulator</title>
+    <link rel="stylesheet" href="kalori kalkulator/style.css">
+  </head>
+  <body>
+    <div class="box">
+      <a href="index.html">back</a>
+      <h1>KALORI KALKULATOR</h1><br />
+      <hr /><br />
+      <label for="jenisKelamin">JENIS KELAMIN: </label><br><br>
+      <input type="radio" name="jenisKelamin" class="radio" id="pria"><span>PRIA</span>
+      <input type="radio" name="jenisKelamin" class="radio" id="wanita"><span>WANITA</span><br>
+      <br>
+      <label>USIA: </label><br />
+      <input type="number" class="number" id="input1"/><span> TAHUN</span><br />
+      <label>TINGGI BADAN: </label><br />
+      <input type="number" class="number" id="input2"/><span> CM</span><br />
+      <label>BERAT BADAN: </label><br />
+      <input type="number" class="number" id="input3"/><span> KG</span><br />
+      <br />
+      <label for="kegiatan">KEGIATAN: </label><br /><br />
+      <input type="radio" name="kegiatan" class="radio" id="kegiatan1"/><span>TIDAK BEROLAHRAGA</span><br />
+      <input type="radio" name="kegiatan" class="radio" id="kegiatan2"/><span>JARANG BEROLAHRAGA</span><br />
+      <input type="radio" name="kegiatan" class="radio" id="kegiatan3"/><span>SERING BEROLAHRAGA</span><br />
+      <br />
+      <button id="hitung">HITUNG</button><br /><br />
+      <h3 id="output">KEBUTUHAN 0 KALORI / HARI</h3><br />
+      <pre>penurunan berat badan : </pre><br />
+      <pre id="pre1">penurunan mudah      = </pre>
+      <pre id="pre2">penurunan normal     = </pre>
+      <pre id="pre3">penurunan ekstrim    = </pre><br />
+      <hr />
+      <script src="kalori kalkulator/index.js"></script>
+    </div>
+</html>
